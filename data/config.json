@@ -1,0 +1,13 @@
+{
+  "matching_threshold": 0.3,
+  "markup_percentage": 25,
+  "default_tests": [
+    "security_audit",
+    "integration_test"
+  ],
+  "system_settings": {
+    "max_products_per_proposal": 3,
+    "require_minimum_match_score": true,
+    "enable_agent_explanations": true
+  }
+}

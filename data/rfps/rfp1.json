@@ -1,0 +1,25 @@
+{
+  "id": "rfp-2024-001",
+  "title": "Enterprise Network Security Solution",
+  "description": "We are seeking a comprehensive network security solution for our organization with 500+ employees across multiple locations. The solution must protect against modern cyber threats while providing centralized management and compliance reporting.",
+  "requirements": [
+    "next-generation firewall capabilities",
+    "intrusion prevention and detection",
+    "VPN support for remote workers",
+    "threat intelligence integration",
+    "high availability configuration",
+    "cloud-based management console",
+    "minimum 10 Gbps throughput",
+    "API integration with existing systems",
+    "SSL/TLS inspection",
+    "compliance reporting for SOC 2"
+  ],
+  "deadline": "2026-04-15",
+  "budget": 50000,
+  "evaluation_criteria": [
+    "technical capabilities",
+    "pricing",
+    "vendor reputation",
+    "implementation timeline"
+  ]
+}

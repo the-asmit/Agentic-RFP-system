@@ -1,0 +1,27 @@
+[
+  {
+    "test_name": "security_audit",
+    "cost": 2500,
+    "description": "Comprehensive security vulnerability assessment"
+  },
+  {
+    "test_name": "performance_test",
+    "cost": 1800,
+    "description": "Load and performance testing"
+  },
+  {
+    "test_name": "integration_test",
+    "cost": 1500,
+    "description": "Integration testing with existing systems"
+  },
+  {
+    "test_name": "compliance_check",
+    "cost": 2000,
+    "description": "Compliance verification and audit"
+  },
+  {
+    "test_name": "penetration_test",
+    "cost": 3500,
+    "description": "Advanced penetration testing"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "id": "rfp-2024-002",
+  "title": "Identity and Access Management System",
+  "description": "Our healthcare organization requires a robust identity and access management solution to secure patient data and meet HIPAA requirements. The system must support 1000+ users and integrate with our existing Active Directory infrastructure.",
+  "requirements": [
+    "multi-factor authentication",
+    "single sign-on across applications",
+    "Active Directory integration",
+    "LDAP support",
+    "biometric authentication options",
+    "role-based access control",
+    "OAuth2 and SAML support",
+    "automated user provisioning",
+    "HIPAA compliance features",
+    "audit logging and reporting",
+    "mobile device support"
+  ],
+  "deadline": "2026-05-30",
+  "budget": 40000,
+  "evaluation_criteria": [
+    "security features",
+    "compliance capabilities",
+    "ease of integration",
+    "total cost of ownership"
+  ]
+}

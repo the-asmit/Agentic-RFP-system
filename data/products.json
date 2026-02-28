@@ -1,0 +1,98 @@
+[
+  {
+    "id": "prod-001",
+    "name": "CloudGuard Firewall Pro",
+    "specs": [
+      "next-generation firewall",
+      "intrusion prevention system",
+      "VPN support",
+      "SSL inspection",
+      "threat intelligence",
+      "high availability",
+      "10 Gbps throughput",
+      "cloud management",
+      "API integration"
+    ],
+    "base_price": 15000
+  },
+  {
+    "id": "prod-002",
+    "name": "DataSafe Backup Enterprise",
+    "specs": [
+      "automated backup",
+      "disaster recovery",
+      "cloud storage integration",
+      "encryption at rest",
+      "encryption in transit",
+      "incremental backup",
+      "retention policy management",
+      "multi-platform support",
+      "deduplication"
+    ],
+    "base_price": 8500
+  },
+  {
+    "id": "prod-003",
+    "name": "SecureAuth Identity Manager",
+    "specs": [
+      "multi-factor authentication",
+      "single sign-on",
+      "LDAP integration",
+      "Active Directory support",
+      "biometric authentication",
+      "OAuth2",
+      "SAML support",
+      "user provisioning",
+      "role-based access control"
+    ],
+    "base_price": 12000
+  },
+  {
+    "id": "prod-004",
+    "name": "NetMonitor Analytics Suite",
+    "specs": [
+      "network monitoring",
+      "real-time analytics",
+      "bandwidth management",
+      "traffic analysis",
+      "alerting system",
+      "dashboard visualization",
+      "API access",
+      "log aggregation",
+      "performance metrics"
+    ],
+    "base_price": 9500
+  },
+  {
+    "id": "prod-005",
+    "name": "CloudScale Load Balancer",
+    "specs": [
+      "application load balancing",
+      "SSL termination",
+      "health monitoring",
+      "auto-scaling",
+      "geographic distribution",
+      "DDoS protection",
+      "session persistence",
+      "WebSocket support",
+      "API gateway"
+    ],
+    "base_price": 11000
+  },
+  {
+    "id": "prod-006",
+    "name": "ComplianceTracker Pro",
+    "specs": [
+      "compliance monitoring",
+      "audit logging",
+      "GDPR compliance",
+      "HIPAA compliance",
+      "SOC 2 support",
+      "automated reporting",
+      "policy enforcement",
+      "risk assessment",
+      "documentation management"
+    ],
+    "base_price": 13500
+  }
+]
