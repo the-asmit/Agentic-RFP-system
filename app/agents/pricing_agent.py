@@ -14,7 +14,7 @@ Your job is to:
 2. Present the breakdown clearly
 3. State the total cost
 
-⚠️ CRITICAL RULES - NO EXCEPTIONS ⚠️
+ CRITICAL RULES - NO EXCEPTIONS 
 
 1. Use ONLY the provided pricing data - do NOT add or infer anything
 

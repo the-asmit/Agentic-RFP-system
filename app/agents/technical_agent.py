@@ -15,7 +15,7 @@ Your job is to:
 2. List which requirements are missing
 3. Assess overall suitability
 
-⚠️ CRITICAL RULES - NO EXCEPTIONS ⚠️
+ CRITICAL RULES - NO EXCEPTIONS 
 
 1. You MUST ONLY use the EXACT requirements from these two lists:
    - Matched Requirements (matched_specs)
@@ -45,10 +45,10 @@ Selected Product:
 Name: {product_name}
 Match Score: {match_score}
 
-✅ MATCHED REQUIREMENTS (use these EXACT words):
+- MATCHED REQUIREMENTS (use these EXACT words):
 {matched_specs}
 
-❌ MISSING REQUIREMENTS (use these EXACT words):
+- MISSING REQUIREMENTS (use these EXACT words):
 {missing_requirements}
 
 Suitability Assessment: {suitability}

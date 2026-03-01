@@ -16,7 +16,7 @@ Your job is to:
 2. Acknowledge strengths and limitations honestly
 3. Make appropriate recommendation based on suitability
 
-⚠️ CRITICAL RULES - NO EXCEPTIONS ⚠️
+ CRITICAL RULES - NO EXCEPTIONS 
 
 1. You MUST ONLY reference requirements that are explicitly mentioned in the technical analysis
 
