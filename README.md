@@ -18,7 +18,7 @@ An intelligent system that automatically processes RFPs, selects the best produc
 
 - **FastAPI** - REST API
 - **LangGraph** - Workflow orchestration
-- **LangChain + Claude Sonnet 4** - AI agents (temperature 0.1 for grounded output)
+- **LangChain + Claude Sonnet 4** - AI agents 
 - **Pydantic** - Data validation
 
 ## How It Works
