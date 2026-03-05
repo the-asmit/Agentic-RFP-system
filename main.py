@@ -1,10 +1,34 @@
 """Main application entry point."""
 import uvicorn
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import router
 from app.core.config import settings
 from app.core.logging import logger
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """
+    Lifespan context manager for startup and shutdown events.
+    
+    Args:
+        app: FastAPI application instance
+    """
+    # Startup
+    logger.info("Starting Agentic RFP Processing System")
+    try:
+        settings.validate()
+        logger.info("Configuration validated successfully")
+    except Exception as e:
+        logger.error(f"Configuration validation failed: {e}")
+        raise
+    
+    yield
+    
+    # Shutdown
+    logger.info("Shutting down Agentic RFP Processing System")
 
 
 def create_app() -> FastAPI:
@@ -17,7 +41,8 @@ def create_app() -> FastAPI:
     app = FastAPI(
         title="Agentic RFP Processing System",
         description="Process RFPs, match products, and generate proposals using AI agents",
-        version="1.0.0"
+        version="1.0.0",
+        lifespan=lifespan
     )
     
     # Add CORS middleware
@@ -31,22 +56,6 @@ def create_app() -> FastAPI:
     
     # Include routes
     app.include_router(router)
-    
-    @app.on_event("startup")
-    async def startup_event():
-        """Run on application startup."""
-        logger.info("Starting Agentic RFP Processing System")
-        try:
-            settings.validate()
-            logger.info("Configuration validated successfully")
-        except Exception as e:
-            logger.error(f"Configuration validation failed: {e}")
-            raise
-    
-    @app.on_event("shutdown")
-    async def shutdown_event():
-        """Run on application shutdown."""
-        logger.info("Shutting down Agentic RFP Processing System")
     
     return app
 
